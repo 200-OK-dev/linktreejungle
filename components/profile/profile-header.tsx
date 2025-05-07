@@ -24,7 +24,7 @@ export function ProfileHeader({ username, bio }: ProfileHeaderProps) {
       transition={{ duration: 0.5 }}
     >
       <motion.div 
-        className="relative w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden mb-4 border-2 border-primary animate-profile-image shadow-2xl"
+        className="relative w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden mb-4 animate-profile-image shadow-2xl"
         initial={{ scale: 0.8 }}
         animate={{ scale: 1 }}
         transition={{ 

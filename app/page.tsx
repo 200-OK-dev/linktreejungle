@@ -12,8 +12,7 @@ export default function Home() {
         <ProfileContainer>
           <ProfileHeader 
             username="@JungleGlass" 
-            bio="Glass Artist // Portor de cuadro fijo🎪✨ Escultor 🧿 一生⛩
- " 
+            bio="Glass Artist // Portor de cuadro fijo🎪✨ Escultor 🧿 一生⛩" 
           />
           <LinksContainer />
           <Footer />

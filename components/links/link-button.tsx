@@ -28,7 +28,7 @@ export function LinkButton({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "link-card group flex items-center justify-between w-full p-4 rounded-lg bg-[#1e1e1e] text-white/90 shadow-md transition-all",
+        "link-card group flex items-center justify-between w-full p-4 rounded-lg bg-[#2e2e2e] text-white/90 shadow-md transition-all",
         "hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-white/20 focus:ring-offset-2 focus:ring-offset-background",
         className
       )}

@@ -1,8 +1,4 @@
-import {
-  Globe,
-  Camera,
-  Instagram,
-} from 'lucide-react';
+import {Globe, MessageCircle} from 'lucide-react';
 
 export const profileLinks = [
   {
@@ -24,9 +20,11 @@ export const profileLinks = [
     hasDropdown: false,
   },
   {
-    label: 'Instagram',
-    href: 'https://instagram.com/jungleglass',
-    icon: <Globe size={20} />,
-    hasDropdown: false,
+    
+      label: 'WhatsApp',
+      href: 'https://wa.me/+56931422827', 
+      icon: <MessageCircle size={20} />, 
+      hasDropdown: false,
+    
   },
 ];
