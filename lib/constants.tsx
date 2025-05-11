@@ -14,8 +14,8 @@ export const profileLinks = [
     hasDropdown: false,
   },
   {
-    label: 'Threads',
-    href: 'https://www.threads.com/@jungleglass?xmt=AQGz-rQgIIofpJB8hJX4-iXe6Oa7FAXWME52R_wO4VNSL9I',
+    label: 'Portafolio',
+    href: 'https://issuu.com/jungleglass/docs/jungleglass_portafolio_4308a6f8f956bf',
     icon: <Globe size={20} />,
     hasDropdown: false,
   },

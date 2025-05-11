@@ -8,11 +8,11 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
   title: '@JungleGlass | Links',
-  description: 'Discover my work and see where you can find me ✨',
+  description: 'Glass Artist ✨',
   keywords: ['JungleGlass', 'links', 'portfolio', 'social media'],
   openGraph: {
     title: '@JungleGlass | Links',
-    description: 'Discover my work and see where you can find me ✨',
+    description: 'Glass Artist ✨',
     url: 'https://jungleglass.links',
     siteName: '@JungleGlass Links',
     locale: 'en_US',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '@JungleGlass | Links',
-    description: 'Discover my work and see where you can find me ✨',
+    description: 'Glass Artist ✨',
     creator: '@JungleGlass',
   },
 };

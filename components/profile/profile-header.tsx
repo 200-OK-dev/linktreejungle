@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 interface ProfileHeaderProps {
   username: string;
@@ -43,7 +44,7 @@ export function ProfileHeader({ username, bio }: ProfileHeaderProps) {
               priority
             />
       </motion.div>
-      
+      <Link href="https://www.instagram.com/jungleglass/">             
       <motion.h1 
         className="text-4xl font-semibold text-slate-100 mb-2"
         initial={{ opacity: 0 }}
@@ -52,6 +53,7 @@ export function ProfileHeader({ username, bio }: ProfileHeaderProps) {
       >
         {username}
       </motion.h1>
+      </Link>
       
       <motion.p 
         className="text-slate-200 text-base md:text-xl max-w-xs font-medium"
